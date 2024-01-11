@@ -1,5 +1,7 @@
 # BostaInterface-Frontend
 
+Simple implementation of frontend logic behind Bosta's tracking shipment interface using ReactJS, HTML and CSS.
+
 *Notes (How to run)*
 - Open folder in vs code
 - Open a new terminal
