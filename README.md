@@ -16,4 +16,4 @@
 - I added a screen recording video showing how the the application should be running. So if it is not running as shown in the video, then this means there may be a problem with the packages or the connection (if there is a problem with the GET request). 
 
 *Notes (Interface screenshots)*
-- I added some screenshots showing the stepper component in different states. The name of the photo implies the state.
+- I added some screenshots in the "InterfaceScreenshots" folder showing the stepper component in different states. The name of the photo implies the state.
