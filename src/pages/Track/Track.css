@@ -1,0 +1,40 @@
+.p_track{
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(108, 108, 108);
+    font-weight: 500;
+}
+
+.input_track{
+    font-family: 'Cairo', sans-serif;
+    border-radius: 5px;
+    height: 1px;
+    width: 400px;
+    border: solid rgba(108, 108, 108, 0.324);
+    padding: 20px;
+}
+
+.input_track::placeholder{
+    color: rgba(93, 93, 93, 0.424);
+    font-size: large;
+}
+
+.input_track:focus{
+    font-family: 'Cairo', sans-serif;
+    border-radius: 5px;
+    height: 1px;
+    width: 400px;
+    border: solid red;
+    padding: 20px;
+}
+
+.img_track{
+    height: 43px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.div_track{
+    display: flex;
+    justify-content: center;
+}

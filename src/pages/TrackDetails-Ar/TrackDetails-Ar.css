@@ -1,0 +1,48 @@
+.div_block_ar{
+    margin-top: -200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgba(108, 108, 108, 0.591);
+    display: flex ;
+    justify-content:space-between;
+    font-size: 18px;
+    border: solid rgba(212, 212, 212, 0.591);
+    padding: 20px;
+    direction: rtl;
+}
+
+.p_shipmentdetails_ar{
+    color: rgb(108, 108, 108);
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    margin-right: 110px;
+}
+
+.p_cancelled{
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p_delivered{
+    color: rgb(19, 178, 19);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.div_lowerhalf_ar{
+    display: flex;
+}
+
+.img_report_ar{
+    height: 150px;
+    width: 150px;
+    margin-right: 240px;
+    margin-top: -100px;
+}
+
+.div_col3_ar{
+    direction: ltr;
+}
