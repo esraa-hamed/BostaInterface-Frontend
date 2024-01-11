@@ -1,0 +1,133 @@
+.NavbarItems{
+    /* background: linear-gradient(90deg, rgba(190, 201, 222, 0.913) 30%, rgb(73, 134, 210) 100%); */
+    height: 80px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.NavbarItems-ar{
+    height: 80px;
+    display: flex;
+    font-size: 1.2rem;
+    direction: rtl;
+}
+
+.nav-logo {
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.nav-logo-ar {
+    margin-right: 120px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-link{
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+    padding: 2px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.nav-link-lang{
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 800;
+    transition: 0.3s;
+    padding: 2px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: large;
+    color: red;
+}
+
+.nav-link-lang:hover{
+    word-spacing: 1%;
+    color: rgba(61, 61, 144, 0.52);
+}
+
+.nav-item-track{
+    padding: 10px;
+    margin-left: 403px;
+}
+
+.nav-link-track{
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.nav-link-track:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.nav-item-track-ar{
+    padding: 10px;
+    margin-right: 403px;
+}
+
+.nav-link-track-ar{
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.nav-link-track-ar:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+@media screen and (max-width: 860px){
+    .NavbarItems{
+        /* background: linear-gradient(90deg, rgba(190, 201, 222, 0.913) 30%, rgb(73, 134, 210) 100%); */
+        height: 80px;
+        display: flex;
+        font-size: 13px;
+    }
+    
+    .NavbarItems-ar{
+        height: 80px;
+        display: flex;
+        font-size: 13px;
+        direction: rtl;
+    }
+    .nav-item-track{
+        padding: 10px;
+        margin-left: 90px;
+    }
+    .nav-logo {
+        margin-left: 20px;
+        cursor: pointer;
+        height: 70px;
+        width: 110px;
+    }
+ }

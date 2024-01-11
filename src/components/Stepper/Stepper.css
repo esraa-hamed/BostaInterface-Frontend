@@ -1,0 +1,236 @@
+.p_step{
+    font-family: 'Cairo', sans-serif;
+    color: rgba(108, 108, 108, 0.591);
+   font-weight: 600;
+   display: relative;
+}
+
+.p_step_success{
+    font-family: 'Cairo', sans-serif;
+    color: rgb(108, 108, 108);
+   font-weight: 600;
+   display: relative;
+}
+
+.p_cancel_reason{
+    font-family: 'Cairo', sans-serif;
+    color: red;
+   font-weight: 400;
+   font-size: 15px;
+   position: absolute;
+   margin-top: 132px;
+}
+
+.div_counter::after{
+   content:'';
+   height: 5px;
+   background-color:  rgba(108, 108, 108, 0.188);
+   width: 270px;
+   margin-top: 12px;
+   position: absolute;
+   margin-left: 8px;
+}
+
+.div_counter{
+border: solid ;
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_counter_success{
+border: solid rgb(19, 178, 19);
+background-color: rgba(19, 178, 19, 0.348);
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_counter_cancel{
+    border: solid red;
+    background-color: rgba(255, 0, 0, 0.269);
+    border-radius: 50%;
+    width: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.div_counter_cancel::after{
+    content:'';
+    height: 5px;
+    background-color:  red;
+    width: 270px;
+    margin-top: 12px;
+    position: absolute;
+    margin-left: 8px;
+}
+
+.div_counter_success::after{
+    content:'';
+    height: 5px;
+    background-color:  rgb(19, 178, 19);
+    width: 270px;
+    margin-top: 12px;
+    position: absolute;
+    margin-left: 8px;
+ }
+
+.div_counter_last{
+border: solid ;
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_counter_last_success{
+border: solid rgb(19, 178, 19);
+background-color: rgba(19, 178, 19, 0.348);
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_stepper{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgba(108, 108, 108, 0.591);
+    display: flex ;
+    justify-content:space-between;
+    font-size: 20px;
+    border: solid rgba(212, 212, 212, 0.591);
+    padding: 20px;
+
+}
+
+.div_counter_step{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_stepper{
+    height: 30px;
+    width: 40px;
+}
+
+@media screen and (max-width: 800px){
+    
+    .div_counter::after{
+       content:'';
+       height: 5px;
+       background-color:  rgba(108, 108, 108, 0.188);
+       width: 80px;
+       margin-top: 12px;
+       position: absolute;
+       margin-left: 8px;
+    }
+    .div_counter{
+    border: solid ;
+    border-radius: 50%;
+    width: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    .div_counter_success{
+    border: solid rgb(19, 178, 19);
+    background-color: rgba(19, 178, 19, 0.348);
+    border-radius: 50%;
+    width: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    .div_counter_last{
+        border: solid ;
+        border-radius: 50%;
+        width: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+        
+        .div_counter_last_success{
+        border: solid rgb(19, 178, 19);
+        background-color: rgba(19, 178, 19, 0.348);
+        border-radius: 50%;
+        width: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    
+    .div_counter_cancel{
+        border: solid red;
+        background-color: rgba(255, 0, 0, 0.269);
+        border-radius: 50%;
+        width: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+    
+    .div_counter_cancel::after{
+        content:'';
+        height: 5px;
+        background-color:  red;
+        width: 80px;
+        margin-top: 12px;
+        position: absolute;
+        margin-left: 8px;
+    }
+    
+    .div_counter_success::after{
+        content:'';
+        height: 5px;
+        background-color:  rgb(19, 178, 19);
+        width: 80px;
+        margin-top: -17px;
+        position: absolute;
+        margin-left: 15px;
+     }
+    
+    .div_counter_last{
+    border: solid ;
+    border-radius: 50%;
+    width: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    
+    .div_counter_last_success{
+    border: solid rgb(19, 178, 19);
+    background-color: rgba(19, 178, 19, 0.348);
+    border-radius: 50%;
+    width: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    
+    .div_stepper{
+        margin-left: 100px;
+        margin-right: 100px;
+        color: rgba(108, 108, 108, 0.591);
+        display: flex ;
+        justify-content:space-between;
+        font-size: 13px;
+        border: solid rgba(212, 212, 212, 0.591);
+        padding: 20px;
+    }
+    
+    .div_counter_step{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img_stepper{
+        height: 30px;
+        width: 40px;
+    }
+}

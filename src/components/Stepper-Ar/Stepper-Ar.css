@@ -1,0 +1,118 @@
+.p_step_ar{
+    font-family: 'Cairo', sans-serif;
+    color: rgba(108, 108, 108, 0.591);
+    font-weight: 600;
+}
+
+.p_step_ar_success{
+    font-family: 'Cairo', sans-serif;
+    color: rgb(108, 108, 108);
+    font-weight: 600;
+}
+
+.p_cancel_reason_ar{
+    font-family: 'Cairo', sans-serif;
+    color: red;
+   font-weight: 400;
+   font-size: 15px;
+   position: absolute;
+   margin-top: 132px;
+}
+
+.div_counter_ar{
+border: solid ;
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_counter_ar::after{
+    content:'';
+    height: 5px;
+    background-color:  rgba(108, 108, 108, 0.188);
+    width: 300px;
+    margin-top: 12px;
+    position: absolute;
+    margin-right: 8px;
+ }
+
+.div_counter_ar_success{
+    border: solid rgb(19, 178, 19);
+    background-color: rgba(5, 240, 5, 0.348);
+    border-radius: 50%;
+    width: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.div_counter_ar_success::after{
+    content:'';
+    height: 5px;
+    background-color:  rgb(19, 178, 19);
+    width: 300px;
+    margin-top: 12px;
+    position: absolute;
+    margin-right: 8px;
+ }
+
+ .div_counter_cancel_ar{
+    border: solid red;
+    background-color: rgba(255, 0, 0, 0.269);
+    border-radius: 50%;
+    width: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+
+ .div_counter_cancel_ar::after{
+    content:'';
+    height: 5px;
+    background-color:  red;
+    width: 300px;
+    margin-top: 12px;
+    position: absolute;
+    margin-right: 8px;
+ }
+
+.div_counter_last_ar{
+border: solid ;
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_stepper_ar{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgba(108, 108, 108, 0.591);
+    display: flex ;
+    justify-content: space-between;
+    font-size: 20px;
+    border: solid rgba(212, 212, 212, 0.591);
+    padding: 20px;
+    direction: rtl;
+}
+
+.div_counter_last_ar_success{
+border: solid rgb(19, 178, 19);
+background-color: rgba(5, 240, 5, 0.348);
+border-radius: 50%;
+width: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.div_counter_step_ar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_stepper{
+    height: 30px;
+    width: 40px;
+}
