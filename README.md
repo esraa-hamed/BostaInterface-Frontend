@@ -11,3 +11,6 @@
 
 *Notes (Hard coded states)*
 - Some things were not very clear considering the GET request. For example, I could not find the address in the json data (as Nasr City in the screenshots). So, I set the address state to 'Nasr City' because I could not find from where should I get it. Also, I did the same thing considering the delivery address and the shipper name.
+
+*Notes (Screen recording video)*
+- I attached a screen recording video showing how the the application should be running. So if it is not running as shown in the video, then this means there may be a problem with the packages or the connection (if there is a problem in the GET request). 
